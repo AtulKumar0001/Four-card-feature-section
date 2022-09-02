@@ -128,6 +128,13 @@ picture{
         height: 38%;
     }
 }
+@media (min-width:950px) and (max-width:1000px)
+{
+    .header-para{
+        margin: 0 1rem 4.2rem;
+    }
+
+}
 @media (min-width:950px) and (max-width:1369px)
 {
     
