@@ -178,7 +178,7 @@ picture{
 }
  
 
-@media (min-width:768px) and (max-width:900px){
+@media (min-width:768px) and (max-width:950px){
     .card-wrap{
         grid-template-columns: 1fr 1fr;
     }
