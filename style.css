@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    color: hsl(229, 6%, 66%);
+    background-color:hsl(0, 0%, 98%);
+}
+.container{
+    height:100vh;
+    padding:4.7rem 8rem;
+}
+.heading-1,.heading-2{
+    font-size:2.2rem;
+}
+.heading-1{
+    color:hsl(234, 12%, 34%);
+    font-weight:100;
+}
+.heading-2{
+    font-weight: 600;
+    color:hsl(234, 12%, 34%);
+    margin-bottom:1.45rem;
+}
+.head{
+    text-align:center;
+}
+.header-para{
+    font-size: 16px;
+    margin: 0 16rem 4.2rem;
+    line-height:1.7;
+}
+.card-wrap{
+    display:grid;
+    text-align: left;
+    grid-template-columns:repeat(3 ,1fr);
+    gap:1.8rem;
+    padding-bottom: 6rem;
+}
+.box{
+    background-color:white;
+    font-size:20px;
+    padding:1.7rem;
+    border-radius: 0.3rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0rem 0.9375rem 1.875rem -0.6875rem rgba(131, 166, 210, 0.5); 
+}
+
+
+.box1,.box4{
+    align-self: center;
+}
+.box1{
+    border-top:4px solid hsl(180, 62%, 55%);
+
+}
+.box2{
+    margin-bottom:2rem;
+    border-top:4px solid hsl(0, 78%, 62%);
+
+}
+.box3{
+    border-top:4px solid hsl(34, 97%, 64%);
+
+}
+.box4{
+    border-top:4px solid hsl(212, 86%, 64%);
+
+}
+.box p{
+    font-size:15px;
+    line-height:1.5;
+    margin-top:.85rem;
+}
+.box h1{
+    color:hsl(234, 12%, 34%);
+    font-weight:600;
+}
+picture{
+    display: flex;
+    flex-direction: column;
+    margin-top:2.65rem;
+    align-items: flex-end;
+}
+@media only screen and (min-width:1370px){
+    .card-wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box1{
+        align-self:flex-start;
+    }
+    .card-wrap{
+        position:relative;
+    
+
+    }
+    .container{
+        height:100vh;
+        padding:4.7rem 2rem;
+    }
+    .heading-1,.heading-2{
+        font-size:2.5rem;
+    }
+   
+    .box4{
+        position: absolute;
+        top: 285px;
+        left: 0px;
+        width: 48.9%;
+    }
+    .header-para{
+        font-size: 20px;
+        margin: 0 3rem 4.2rem;
+        line-height:1.7;
+    }
+    .box1{
+        height: 50%;
+    }
+    .box4{
+        height: 38%;
+    }
+}
+@media (min-width:950px) and (max-width:1369px)
+{
+    
+}
+
+@media (min-width:768px) and (max-width:949px){
+    .card-wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box1{
+        align-self:flex-start;
+    }
+    .card-wrap{
+        position:relative;
+    
+
+    }
+    .container{
+        height:100vh;
+        padding:2rem 1.5rem;
+    }
+    .heading-1,.heading-2{
+        font-size:2.5rem;
+    }
+   
+    .box4{
+        position: absolute;
+        top: 281px;
+        left: 0px;
+        width: 48.9%;
+    }
+    .header-para{
+        font-size: 20px;
+        margin: 0 3rem 4.2rem;
+        line-height:1.7;
+    }
+    .box1{
+        height: 50%;
+    }
+    .box4{
+        height: 38%;
+    }
+}
+@media (min-width:481px) and (max-width:767px)
+{
+    .card-wrap{
+        grid-template-columns: 1fr;
+    }
+    .header-para{
+        font-size: 16px;
+        margin: 0 4rem 4.2rem;
+        line-height:1.7;
+    }
+    .heading-1{
+        margin-bottom:.6rem;
+    }
+    .heading-1,.heading-2{
+        font-size:2rem;
+    }
+   
+    .container{
+        height:100vh;
+        padding:2.5rem 2rem;
+    }
+
+}
+@media (min-width:320px) and (max-width:480px)
+{
+    .card-wrap{
+        grid-template-columns: 1fr;
+    }
+    .header-para{
+        font-size: 12px;
+        margin: 0 1rem 4.2rem;
+        line-height:1.7;
+    }
+    .heading-1{
+        margin-bottom:.2rem;
+    }
+    .heading-1,.heading-2{
+        font-size:1.4rem;
+    }
+    .header-para{
+        font-size: 15px;
+    }
+    .container{
+        height:100vh;
+        padding:2rem 1.5rem;
+    }
+    .box p{
+        font-size:14px;
+
+    }
+    .box h1{
+        font-size: 18px;
+    }
+
+}
+@media (max-width:320px)
+{
+    .card-wrap{
+        grid-template-columns: 1fr;
+    }
+    .header-para{
+        font-size: 12px;
+        margin: 0 1rem 4.2rem;
+        line-height:1.7;
+    }
+    .heading-1{
+        margin-bottom:.2rem;
+    }
+    .heading-1,.heading-2{
+        font-size:1.4rem;
+    }
+    .header-para{
+        font-size: 15px;
+    }
+    .container{
+        height:100vh;
+        padding:2rem 1.5rem;
+    }
+    .box p{
+        font-size:14px;
+
+    }
+    .box h1{
+        font-size: 18px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
